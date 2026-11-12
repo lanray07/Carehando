@@ -1,0 +1,39 @@
+{
+  "displayTitle": "Carehando – Pflegeplaner für Familien",
+  "shortDescription": "Organisieren Sie die tägliche Pflege und hinterlassen Sie eine klare Übergabe für die nächste Betreuungsperson.",
+  "longDescription": "Organisieren Sie die tägliche Pflege und hinterlassen Sie eine klare Übergabe für die nächste Betreuungsperson.\n\nSehen Sie, was heute für die betreute Person ansteht. Planen Sie wiederkehrende Aufgaben und sehen Sie erledigte Aktivitäten ein. Halten Sie den Besuch und offene Aufgaben für die nächste Person fest. Richten Sie Erinnerungen nach Ihrem Einnahmeplan ein und bestätigen Sie die Einnahme selbst. Sammeln Sie Uhrzeiten, Orte und Vorbereitungshinweise.\n\nTippen Sie einen Befehl oder sprechen Sie auf einem kompatiblen Gerät. Pflegeeinträge bleiben auf Ihrem Gerät, sofern Sie sie nicht exportieren. Prüfen Sie den Bericht, bevor Sie einen Speicherort wählen.",
+  "keywords": [
+    "Pflegeplaner für Familien",
+    "Aufgaben und Routinen",
+    "Klare Pflegeübergaben",
+    "Medikamentenplan im Blick",
+    "Termine organisieren"
+  ],
+  "productFeatureBullets": [
+    "Aufgaben und Routinen",
+    "Klare Pflegeübergaben",
+    "Medikamentenplan im Blick",
+    "Termine organisieren"
+  ],
+  "releaseNotes": "Erste Version mit Pflegeplanung, Pflegenotizen und Übergaben auf einem gemeinsamen Gerät.",
+  "screenshotHeadlines": {
+    "01-today": "Familienpflege planen",
+    "02-plans": "Aufgaben und Routinen",
+    "03-handovers": "Klare Pflegeübergaben",
+    "04-medication": "Medikamentenplan im Blick",
+    "05-appointments": "Termine organisieren",
+    "06-assistant": "Sprache oder Text",
+    "07-records": "Pflegeeinträge offline",
+    "08-reports": "Pflegeberichte prüfen"
+  },
+  "screenshotCaptions": {
+    "01-today": "Sehen Sie, was heute für die betreute Person ansteht.",
+    "02-plans": "Planen Sie wiederkehrende Aufgaben und sehen Sie erledigte Aktivitäten ein.",
+    "03-handovers": "Halten Sie den Besuch und offene Aufgaben für die nächste Person fest.",
+    "04-medication": "Richten Sie Erinnerungen nach Ihrem Einnahmeplan ein und bestätigen Sie die Einnahme selbst.",
+    "05-appointments": "Sammeln Sie Uhrzeiten, Orte und Vorbereitungshinweise.",
+    "06-assistant": "Tippen Sie einen Befehl oder sprechen Sie auf einem kompatiblen Gerät.",
+    "07-records": "Pflegeeinträge bleiben auf Ihrem Gerät, sofern Sie sie nicht exportieren.",
+    "08-reports": "Prüfen Sie den Bericht, bevor Sie einen Speicherort wählen."
+  }
+}

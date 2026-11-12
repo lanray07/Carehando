@@ -1,0 +1,40 @@
+{
+  "displayTitle": "Carehando – Family Care & Daily Planner",
+  "shortDescription": "Plan daily family care and leave a clear handover for the next caregiver.",
+  "longDescription": "Keep daily tasks, appointments, medication reminders and care notes in one place. Review what happened since the last visit, add follow-up actions and save a caregiver handover. The next caregiver can record an acknowledgement on the same device. Local care planning works without an account. Medication status is recorded only when a user confirms it.",
+  "keywords": [
+    "family care planner",
+    "caregiver handover",
+    "daily care tracker",
+    "care appointment tracker",
+    "medication reminder tracker",
+    "offline care journal"
+  ],
+  "productFeatureBullets": [
+    "Daily tasks and care routines",
+    "Clear caregiver handovers",
+    "Medication reminder tracker",
+    "Care appointments in one place"
+  ],
+  "releaseNotes": "First release with daily planning, care journals and handovers on a shared device.",
+  "screenshotHeadlines": {
+    "01-today": "Family care, planned day by day",
+    "02-plans": "Daily tasks and care routines",
+    "03-handovers": "Clear caregiver handovers",
+    "04-medication": "Medication reminder tracker",
+    "05-appointments": "Care appointments in one place",
+    "06-assistant": "Voice and text care assistant",
+    "07-records": "Private offline care records",
+    "08-reports": "Care reports and summaries"
+  },
+  "screenshotCaptions": {
+    "01-today": "See the daily schedule for the person you support.",
+    "02-plans": "Set repeating activities and review what was completed.",
+    "03-handovers": "Review the visit and leave clear follow-up actions.",
+    "04-medication": "Set reminders using your existing medication schedule.",
+    "05-appointments": "Keep times, locations and preparation notes together.",
+    "06-assistant": "Type a command or speak on a compatible device.",
+    "07-records": "Keep care notes on your device and find them when needed.",
+    "08-reports": "Review a care report before you choose where to save it."
+  }
+}

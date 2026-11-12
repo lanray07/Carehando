@@ -1,0 +1,39 @@
+{
+  "displayTitle": "Carehando – Organizador de cuidados familiares",
+  "shortDescription": "Organiza los cuidados diarios de tu familia y deja un relevo claro para la siguiente persona cuidadora.",
+  "longDescription": "Organiza los cuidados diarios de tu familia y deja un relevo claro para la siguiente persona cuidadora.\n\nConsulta las actividades de hoy para la persona que cuidas. Programa tareas repetidas y revisa las actividades terminadas. Resume la visita y deja por escrito los pasos pendientes. Configura recordatorios con tu horario actual y confirma cada toma. Guarda la hora, el lugar y las notas de preparación de tus citas.\n\nEscribe un comando o dítalo en un equipo compatible. Los registros se quedan en el dispositivo salvo que los exportes. Revisa el informe antes de elegir dónde guardarlo.",
+  "keywords": [
+    "Organizador de cuidados familiares",
+    "Tareas y rutinas de cuidado",
+    "Relevos con información clara",
+    "Recordatorios de medicamentos",
+    "Citas en un solo lugar"
+  ],
+  "productFeatureBullets": [
+    "Tareas y rutinas de cuidado",
+    "Relevos con información clara",
+    "Recordatorios de medicamentos",
+    "Citas en un solo lugar"
+  ],
+  "releaseNotes": "Primera versión con planes diarios, registros y relevos en un dispositivo compartido.",
+  "screenshotHeadlines": {
+    "01-today": "Cuidados familiares al día",
+    "02-plans": "Tareas y rutinas de cuidado",
+    "03-handovers": "Relevos con información clara",
+    "04-medication": "Recordatorios de medicamentos",
+    "05-appointments": "Citas en un solo lugar",
+    "06-assistant": "Asistente de voz y texto",
+    "07-records": "Registros sin conexión",
+    "08-reports": "Informes de cuidados"
+  },
+  "screenshotCaptions": {
+    "01-today": "Consulta las actividades de hoy para la persona que cuidas.",
+    "02-plans": "Programa tareas repetidas y revisa las actividades terminadas.",
+    "03-handovers": "Resume la visita y deja por escrito los pasos pendientes.",
+    "04-medication": "Configura recordatorios con tu horario actual y confirma cada toma.",
+    "05-appointments": "Guarda la hora, el lugar y las notas de preparación de tus citas.",
+    "06-assistant": "Escribe un comando o dítalo en un equipo compatible.",
+    "07-records": "Los registros se quedan en el dispositivo salvo que los exportes.",
+    "08-reports": "Revisa el informe antes de elegir dónde guardarlo."
+  }
+}

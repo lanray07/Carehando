@@ -1,0 +1,40 @@
+{
+  "displayTitle": "Carehando – Planificador de cuidados familiares",
+  "shortDescription": "Organiza los cuidados diarios y deja un relevo claro para la siguiente persona cuidadora.",
+  "longDescription": "Reúne las tareas, las citas, los recordatorios de medicación y las notas de cuidados. Revisa la actividad desde la última visita, añade acciones de seguimiento y guarda un relevo. La siguiente persona cuidadora puede confirmar la lectura en el mismo dispositivo. La planificación local funciona sin cuenta. Las tomas de medicación solo se registran después de confirmarlas.",
+  "keywords": [
+    "planificador cuidados familiares",
+    "relevo cuidadores",
+    "tareas de cuidados",
+    "citas de cuidados",
+    "recordatorios medicación",
+    "diario de cuidados sin conexión"
+  ],
+  "productFeatureBullets": [
+    "Tareas y rutinas de cuidados",
+    "Relevos de cuidados claros",
+    "Recordatorios de medicación",
+    "Citas de cuidados en un lugar"
+  ],
+  "releaseNotes": "Primera versión con planificación diaria, diario de cuidados y relevos en el mismo dispositivo.",
+  "screenshotHeadlines": {
+    "01-today": "Cuidados familiares día a día",
+    "02-plans": "Tareas y rutinas de cuidados",
+    "03-handovers": "Relevos de cuidados claros",
+    "04-medication": "Recordatorios de medicación",
+    "05-appointments": "Citas de cuidados en un lugar",
+    "06-assistant": "Asistente de voz y texto",
+    "07-records": "Registros privados sin conexión",
+    "08-reports": "Informes y resúmenes de cuidados"
+  },
+  "screenshotCaptions": {
+    "01-today": "Consulta el horario de hoy de la persona a la que ayudas.",
+    "02-plans": "Programa actividades periódicas y revisa su estado.",
+    "03-handovers": "Resume la visita y deja acciones de seguimiento claras.",
+    "04-medication": "Crea avisos a partir del horario de medicación indicado.",
+    "05-appointments": "Reúne horarios, lugares y notas de preparación.",
+    "06-assistant": "Escribe una orden o dítala en un dispositivo compatible.",
+    "07-records": "Guarda las notas en tu dispositivo y encuéntralas fácilmente.",
+    "08-reports": "Revisa el informe antes de elegir dónde guardarlo."
+  }
+}

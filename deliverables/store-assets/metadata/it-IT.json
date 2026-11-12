@@ -1,0 +1,39 @@
+{
+  "displayTitle": "Carehando – Organizzatore per l’assistenza familiare",
+  "shortDescription": "Organizza l’assistenza di tutti i giorni e lascia un riepilogo a chi subentra.",
+  "longDescription": "Organizza l’assistenza di tutti i giorni e lascia un riepilogo a chi subentra.\n\nConsulta le attività previste per la persona che assisti. Pianifica le attività ricorrenti e controlla quelle concluse. Riepiloga la visita e indica che cosa resta da fare. Imposta i promemoria secondo gli orari indicati e conferma le dosi personalmente. Tieni insieme orari, luoghi e note di preparazione.\n\nScrivi un comando o pronuncialo su un dispositivo compatibile. I dati restano sul dispositivo, a meno che tu non li esporti. Controlla il resoconto prima di scegliere dove salvarlo.",
+  "keywords": [
+    "Organizzatore per l’assistenza familiare",
+    "Attività e routine quotidiane",
+    "Passaggi di consegne chiari",
+    "Promemoria per i farmaci",
+    "Appuntamenti in un solo posto"
+  ],
+  "productFeatureBullets": [
+    "Attività e routine quotidiane",
+    "Passaggi di consegne chiari",
+    "Promemoria per i farmaci",
+    "Appuntamenti in un solo posto"
+  ],
+  "releaseNotes": "Prima versione con piani giornalieri, registri e passaggi di consegne su un dispositivo condiviso.",
+  "screenshotHeadlines": {
+    "01-today": "Organizza l’assistenza familiare",
+    "02-plans": "Attività e routine quotidiane",
+    "03-handovers": "Passaggi di consegne chiari",
+    "04-medication": "Promemoria per i farmaci",
+    "05-appointments": "Appuntamenti in un solo posto",
+    "06-assistant": "Assistente vocale e testuale",
+    "07-records": "Registri anche offline",
+    "08-reports": "Resoconti di assistenza"
+  },
+  "screenshotCaptions": {
+    "01-today": "Consulta le attività previste per la persona che assisti.",
+    "02-plans": "Pianifica le attività ricorrenti e controlla quelle concluse.",
+    "03-handovers": "Riepiloga la visita e indica che cosa resta da fare.",
+    "04-medication": "Imposta i promemoria secondo gli orari indicati e conferma le dosi personalmente.",
+    "05-appointments": "Tieni insieme orari, luoghi e note di preparazione.",
+    "06-assistant": "Scrivi un comando o pronuncialo su un dispositivo compatibile.",
+    "07-records": "I dati restano sul dispositivo, a meno che tu non li esporti.",
+    "08-reports": "Controlla il resoconto prima di scegliere dove salvarlo."
+  }
+}

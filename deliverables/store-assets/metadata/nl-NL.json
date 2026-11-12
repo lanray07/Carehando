@@ -1,0 +1,39 @@
+{
+  "displayTitle": "Carehando – Zorgplanner voor het gezin",
+  "shortDescription": "Plan de dagelijkse zorg en laat een duidelijke overdracht achter voor de volgende verzorger.",
+  "longDescription": "Plan de dagelijkse zorg en laat een duidelijke overdracht achter voor de volgende verzorger.\n\nBekijk wat vandaag nodig is voor de persoon die u ondersteunt. Plan terugkerende taken en bekijk afgeronde activiteiten. Vat het bezoek samen en leg vast wat nog moet gebeuren. Stel herinneringen in volgens uw medicatieschema en bevestig de inname zelf. Bewaar tijden, locaties en voorbereiding op één plek.\n\nTyp een opdracht of spreek die uit op een geschikt apparaat. Zorggegevens blijven op het apparaat, tenzij u ze exporteert. Bekijk het verslag voordat u kiest waar u het opslaat.",
+  "keywords": [
+    "Zorgplanner voor het gezin",
+    "Taken en zorgroutines",
+    "Duidelijke zorgoverdracht",
+    "Medicatieherinneringen",
+    "Afspraken bij de hand"
+  ],
+  "productFeatureBullets": [
+    "Taken en zorgroutines",
+    "Duidelijke zorgoverdracht",
+    "Medicatieherinneringen",
+    "Afspraken bij de hand"
+  ],
+  "releaseNotes": "Eerste versie met dagplanning, zorgnotities en overdracht op een gedeeld apparaat.",
+  "screenshotHeadlines": {
+    "01-today": "Gezinszorg plannen",
+    "02-plans": "Taken en zorgroutines",
+    "03-handovers": "Duidelijke zorgoverdracht",
+    "04-medication": "Medicatieherinneringen",
+    "05-appointments": "Afspraken bij de hand",
+    "06-assistant": "Spraak en tekst",
+    "07-records": "Zorgdossier offline",
+    "08-reports": "Zorgverslag bekijken"
+  },
+  "screenshotCaptions": {
+    "01-today": "Bekijk wat vandaag nodig is voor de persoon die u ondersteunt.",
+    "02-plans": "Plan terugkerende taken en bekijk afgeronde activiteiten.",
+    "03-handovers": "Vat het bezoek samen en leg vast wat nog moet gebeuren.",
+    "04-medication": "Stel herinneringen in volgens uw medicatieschema en bevestig de inname zelf.",
+    "05-appointments": "Bewaar tijden, locaties en voorbereiding op één plek.",
+    "06-assistant": "Typ een opdracht of spreek die uit op een geschikt apparaat.",
+    "07-records": "Zorggegevens blijven op het apparaat, tenzij u ze exporteert.",
+    "08-reports": "Bekijk het verslag voordat u kiest waar u het opslaat."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "displayTitle": "Carehando – Organisation des soins en famille",
+  "shortDescription": "Organisez l’aide au quotidien et transmettez un compte rendu clair à la personne qui prend le relais.",
+  "longDescription": "Regroupez les tâches, rendez-vous, rappels de médicaments et notes de soins. Consultez les activités depuis la dernière visite, ajoutez les actions de suivi et enregistrez une relève. La personne qui prend le relais peut confirmer sa lecture sur le même appareil. L’organisation locale des soins fonctionne sans compte. Les prises de médicaments sont consignées uniquement après confirmation.",
+  "keywords": [
+    "planning aidant familial",
+    "relève aidants",
+    "tâches aide à domicile",
+    "rendez-vous soins",
+    "rappels médicaments",
+    "journal de soins hors ligne"
+  ],
+  "productFeatureBullets": [
+    "Tâches et routines de soins",
+    "Des relèves claires entre aidants",
+    "Rappels de médicaments",
+    "Rendez-vous de soins"
+  ],
+  "releaseNotes": "Première version avec planification quotidienne, journal de soins et relèves sur un même appareil.",
+  "screenshotHeadlines": {
+    "01-today": "Planifier les soins au quotidien",
+    "02-plans": "Tâches et routines de soins",
+    "03-handovers": "Des relèves claires entre aidants",
+    "04-medication": "Rappels de médicaments",
+    "05-appointments": "Rendez-vous de soins",
+    "06-assistant": "Assistant vocal et textuel",
+    "07-records": "Dossiers de soins hors ligne",
+    "08-reports": "Rapports et résumés de soins"
+  },
+  "screenshotCaptions": {
+    "01-today": "Consultez le programme du jour de la personne aidée.",
+    "02-plans": "Planifiez des activités régulières et consultez leur état.",
+    "03-handovers": "Résumez la visite et précisez les actions de suivi.",
+    "04-medication": "Créez des rappels à partir du calendrier prescrit.",
+    "05-appointments": "Regroupez horaires, lieux et notes de préparation.",
+    "06-assistant": "Saisissez une commande ou dictez-la sur un appareil compatible.",
+    "07-records": "Conservez vos notes sur cet appareil et retrouvez-les facilement.",
+    "08-reports": "Vérifiez le rapport avant de choisir où l’enregistrer."
+  }
+}

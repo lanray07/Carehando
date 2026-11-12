@@ -1,0 +1,39 @@
+{
+  "displayTitle": "Carehando – Planejador de cuidados familiares",
+  "shortDescription": "Planeje os cuidados do dia a dia e deixe um resumo claro para a próxima pessoa cuidadora.",
+  "longDescription": "Planeje os cuidados do dia a dia e deixe um resumo claro para a próxima pessoa cuidadora.\n\nVeja o que está previsto para hoje para a pessoa que você cuida. Programe tarefas recorrentes e consulte as atividades concluídas. Resuma a visita e registre o que ainda precisa ser feito. Configure lembretes pelo horário indicado e confirme cada dose você mesmo. Reúna horários, locais e anotações para os compromissos.\n\nDigite um comando ou fale em um dispositivo compatível. Os registros ficam no dispositivo, a menos que você os exporte. Confira o relatório antes de escolher onde salvar.",
+  "keywords": [
+    "Planejador de cuidados familiares",
+    "Tarefas e rotinas de cuidado",
+    "Passagem de cuidados clara",
+    "Lembretes de medicamentos",
+    "Compromissos em um só lugar"
+  ],
+  "productFeatureBullets": [
+    "Tarefas e rotinas de cuidado",
+    "Passagem de cuidados clara",
+    "Lembretes de medicamentos",
+    "Compromissos em um só lugar"
+  ],
+  "releaseNotes": "Primeira versão com planejamento diário, diário de cuidados e passagens em um dispositivo compartilhado.",
+  "screenshotHeadlines": {
+    "01-today": "Cuidados familiares no dia a dia",
+    "02-plans": "Tarefas e rotinas de cuidado",
+    "03-handovers": "Passagem de cuidados clara",
+    "04-medication": "Lembretes de medicamentos",
+    "05-appointments": "Compromissos em um só lugar",
+    "06-assistant": "Assistente de voz e texto",
+    "07-records": "Registros de cuidados offline",
+    "08-reports": "Relatórios de cuidados"
+  },
+  "screenshotCaptions": {
+    "01-today": "Veja o que está previsto para hoje para a pessoa que você cuida.",
+    "02-plans": "Programe tarefas recorrentes e consulte as atividades concluídas.",
+    "03-handovers": "Resuma a visita e registre o que ainda precisa ser feito.",
+    "04-medication": "Configure lembretes pelo horário indicado e confirme cada dose você mesmo.",
+    "05-appointments": "Reúna horários, locais e anotações para os compromissos.",
+    "06-assistant": "Digite um comando ou fale em um dispositivo compatível.",
+    "07-records": "Os registros ficam no dispositivo, a menos que você os exporte.",
+    "08-reports": "Confira o relatório antes de escolher onde salvar."
+  }
+}

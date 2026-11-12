@@ -1,0 +1,15 @@
+de-DE: metadata and screenshot copy checks passed
+en-AU: metadata and screenshot copy checks passed
+en-GB: metadata and screenshot copy checks passed
+en-IN: metadata and screenshot copy checks passed
+en-US: metadata and screenshot copy checks passed
+es-ES: metadata and screenshot copy checks passed
+es-MX: metadata and screenshot copy checks passed
+fr-FR: metadata and screenshot copy checks passed
+it-IT: metadata and screenshot copy checks passed
+ja-JP: metadata and screenshot copy checks passed
+nl-NL: metadata and screenshot copy checks passed
+pl-PL: metadata and screenshot copy checks passed
+pt-BR: metadata and screenshot copy checks passed
+pt-PT: metadata and screenshot copy checks passed
+sv-SE: metadata and screenshot copy checks passed

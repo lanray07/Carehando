@@ -1,0 +1,181 @@
+{
+  "en": {
+    "recipient": "Robin",
+    "caregiver": "Sam",
+    "role": "Family",
+    "routine": "Prepare lunch",
+    "task": "Pick up groceries",
+    "appointment": "Physiotherapy appointment",
+    "location": "Community centre",
+    "medication": "Evening reminder",
+    "journal": "Afternoon visit",
+    "journalNote": "We took a short walk in the garden.",
+    "followUp": "Check transport for tomorrow."
+  },
+  "fr-FR": {
+    "recipient": "Camille",
+    "caregiver": "Noa",
+    "role": "Famille",
+    "routine": "Préparer le déjeuner",
+    "task": "Faire les courses",
+    "appointment": "Séance de kinésithérapie",
+    "location": "Centre municipal",
+    "medication": "Rappel du soir",
+    "journal": "Visite de l’après-midi",
+    "journalNote": "Nous avons fait un petit tour dans le jardin.",
+    "followUp": "Vérifier le transport pour demain."
+  },
+  "fr-CA": {
+    "recipient": "Camille",
+    "caregiver": "Noa",
+    "role": "Famille",
+    "routine": "Préparer le dîner",
+    "task": "Faire l’épicerie",
+    "appointment": "Rendez-vous de physiothérapie",
+    "location": "Centre communautaire",
+    "medication": "Rappel du soir",
+    "journal": "Visite de l’après-midi",
+    "journalNote": "Nous avons fait un petit tour dans le jardin.",
+    "followUp": "Confirmer le transport pour demain."
+  },
+  "es-ES": {
+    "recipient": "Carmen",
+    "caregiver": "Álex",
+    "role": "Familia",
+    "routine": "Preparar la comida",
+    "task": "Hacer la compra",
+    "appointment": "Cita de fisioterapia",
+    "location": "Centro comunitario",
+    "medication": "Recordatorio de la noche",
+    "journal": "Visita de la tarde",
+    "journalNote": "Dimos un pequeño paseo por el jardín.",
+    "followUp": "Confirmar el transporte de mañana."
+  },
+  "es-419": {
+    "recipient": "Carmen",
+    "caregiver": "Álex",
+    "role": "Familia",
+    "routine": "Preparar el almuerzo",
+    "task": "Hacer las compras",
+    "appointment": "Cita de fisioterapia",
+    "location": "Centro comunitario",
+    "medication": "Recordatorio de la noche",
+    "journal": "Visita de la tarde",
+    "journalNote": "Dimos una vuelta corta por el jardín.",
+    "followUp": "Confirmar el transporte para mañana."
+  },
+  "de-DE": {
+    "recipient": "Robin",
+    "caregiver": "Sam",
+    "role": "Familie",
+    "routine": "Mittagessen vorbereiten",
+    "task": "Lebensmittel einkaufen",
+    "appointment": "Physiotherapietermin",
+    "location": "Gemeindezentrum",
+    "medication": "Abenderinnerung",
+    "journal": "Besuch am Nachmittag",
+    "journalNote": "Wir sind kurz im Garten spazieren gegangen.",
+    "followUp": "Fahrt für morgen abklären."
+  },
+  "it-IT": {
+    "recipient": "Sofia",
+    "caregiver": "Andrea",
+    "role": "Famiglia",
+    "routine": "Preparare il pranzo",
+    "task": "Fare la spesa",
+    "appointment": "Appuntamento di fisioterapia",
+    "location": "Centro di quartiere",
+    "medication": "Promemoria della sera",
+    "journal": "Visita del pomeriggio",
+    "journalNote": "Abbiamo fatto una breve passeggiata in giardino.",
+    "followUp": "Confermare il trasporto per domani."
+  },
+  "pt-BR": {
+    "recipient": "Camila",
+    "caregiver": "Alex",
+    "role": "Família",
+    "routine": "Preparar o almoço",
+    "task": "Fazer as compras",
+    "appointment": "Sessão de fisioterapia",
+    "location": "Centro comunitário",
+    "medication": "Lembrete da noite",
+    "journal": "Visita da tarde",
+    "journalNote": "Demos uma volta curta pelo jardim.",
+    "followUp": "Confirmar o transporte para amanhã."
+  },
+  "pt-PT": {
+    "recipient": "Camila",
+    "caregiver": "Alex",
+    "role": "Família",
+    "routine": "Preparar o almoço",
+    "task": "Fazer as compras",
+    "appointment": "Sessão de fisioterapia",
+    "location": "Centro comunitário",
+    "medication": "Lembrete da noite",
+    "journal": "Visita da tarde",
+    "journalNote": "Demos um pequeno passeio no jardim.",
+    "followUp": "Confirmar o transporte para amanhã."
+  },
+  "ja-JP": {
+    "recipient": "陽子",
+    "caregiver": "直樹",
+    "role": "家族",
+    "routine": "昼食の準備",
+    "task": "食料品の買い物",
+    "appointment": "理学療法の予約",
+    "location": "地域交流センター",
+    "medication": "夕方のお薬リマインダー",
+    "journal": "午後の訪問",
+    "journalNote": "庭を少し散歩しました。",
+    "followUp": "明日の移動手段を確認する。"
+  },
+  "ar": {
+    "recipient": "ليلى",
+    "caregiver": "نور",
+    "role": "العائلة",
+    "routine": "تحضير الغداء",
+    "task": "شراء البقالة",
+    "appointment": "موعد العلاج الطبيعي",
+    "location": "المركز المجتمعي",
+    "medication": "تذكير المساء",
+    "journal": "زيارة بعد الظهر",
+    "journalNote": "تمشّينا قليلًا في الحديقة.",
+    "followUp": "تأكيد المواصلات ليوم غد."
+  },
+  "nl-NL": {
+    "recipient": "Sofie", "caregiver": "Sam", "role": "Familie", "routine": "Lunch klaarmaken",
+    "task": "Boodschappen doen", "appointment": "Afspraak bij de fysiotherapeut", "location": "Buurthuis",
+    "medication": "Avondherinnering", "journal": "Middagbezoek", "journalNote": "We hebben even in de tuin gewandeld.",
+    "followUp": "Vervoer voor morgen bevestigen."
+  },
+  "sv-SE": {
+    "recipient": "Karin", "caregiver": "Alex", "role": "Familj", "routine": "Förbereda lunch",
+    "task": "Handla mat", "appointment": "Tid hos fysioterapeuten", "location": "Kvarterslokalen",
+    "medication": "Kvällspåminnelse", "journal": "Eftermiddagsbesök", "journalNote": "Vi tog en kort promenad i trädgården.",
+    "followUp": "Bekräfta transporten till imorgon."
+  },
+  "pl-PL": {
+    "recipient": "Anna", "caregiver": "Alex", "role": "Rodzina", "routine": "Przygotować obiad",
+    "task": "Zrobić zakupy", "appointment": "Wizyta u fizjoterapeuty", "location": "Ośrodek osiedlowy",
+    "medication": "Wieczorne przypomnienie", "journal": "Popołudniowa wizyta", "journalNote": "Poszliśmy na krótki spacer po ogrodzie.",
+    "followUp": "Potwierdzić transport na jutro."
+  },
+  "tr-TR": {
+    "recipient": "Deniz", "caregiver": "Ece", "role": "Aile", "routine": "Öğle yemeğini hazırla",
+    "task": "Market alışverişi yap", "appointment": "Fizyoterapi randevusu", "location": "Mahalle merkezi",
+    "medication": "Akşam hatırlatıcısı", "journal": "Öğleden sonra ziyareti", "journalNote": "Bahçede kısa bir yürüyüş yaptık.",
+    "followUp": "Yarın için ulaşımı doğrula."
+  },
+  "hi-IN": {
+    "recipient": "आशा", "caregiver": "मीरा", "role": "परिवार", "routine": "दोपहर का खाना तैयार करें",
+    "task": "किराने का सामान लाएँ", "appointment": "फ़िज़ियोथेरेपी का अपॉइंटमेंट", "location": "सामुदायिक केंद्र",
+    "medication": "शाम का रिमाइंडर", "journal": "दोपहर की मुलाकात", "journalNote": "हमने बगीचे में थोड़ी देर सैर की।",
+    "followUp": "कल के लिए आने-जाने की व्यवस्था पक्की करें।"
+  },
+  "id-ID": {
+    "recipient": "Dewi", "caregiver": "Rani", "role": "Keluarga", "routine": "Siapkan makan siang",
+    "task": "Beli bahan makanan", "appointment": "Janji fisioterapi", "location": "Balai warga",
+    "medication": "Pengingat malam", "journal": "Kunjungan sore", "journalNote": "Kami berjalan-jalan sebentar di kebun.",
+    "followUp": "Konfirmasi transportasi untuk besok."
+  }
+}

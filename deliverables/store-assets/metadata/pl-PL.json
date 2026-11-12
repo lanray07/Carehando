@@ -1,0 +1,39 @@
+{
+  "displayTitle": "Carehando – Planer opieki rodzinnej",
+  "shortDescription": "Zaplanuj codzienną opiekę i zostaw czytelne podsumowanie dla kolejnego opiekuna.",
+  "longDescription": "Zaplanuj codzienną opiekę i zostaw czytelne podsumowanie dla kolejnego opiekuna.\n\nSprawdź, co jest zaplanowane na dziś dla osoby pod opieką. Ustaw powtarzające się zadania i przejrzyj wykonane czynności. Podsumuj wizytę i zapisz, co pozostało do zrobienia. Ustaw przypomnienia według zaleconego harmonogramu i samodzielnie potwierdź dawkę. Zapisuj godziny, miejsca i notatki dotyczące przygotowań.\n\nWpisz polecenie lub wypowiedz je na zgodnym urządzeniu. Zapisy pozostają na urządzeniu, chyba że je wyeksportujesz. Przejrzyj raport przed wybraniem miejsca zapisu.",
+  "keywords": [
+    "Planer opieki rodzinnej",
+    "Zadania i stałe czynności",
+    "Sprawne przekazanie opieki",
+    "Przypomnienia o lekach",
+    "Wizyty w jednym miejscu"
+  ],
+  "productFeatureBullets": [
+    "Zadania i stałe czynności",
+    "Sprawne przekazanie opieki",
+    "Przypomnienia o lekach",
+    "Wizyty w jednym miejscu"
+  ],
+  "releaseNotes": "Pierwsza wersja z planowaniem, dziennikiem opieki i przekazaniem opieki na wspólnym urządzeniu.",
+  "screenshotHeadlines": {
+    "01-today": "Zaplanuj opiekę rodzinną",
+    "02-plans": "Zadania i stałe czynności",
+    "03-handovers": "Sprawne przekazanie opieki",
+    "04-medication": "Przypomnienia o lekach",
+    "05-appointments": "Wizyty w jednym miejscu",
+    "06-assistant": "Polecenia głosem i tekstem",
+    "07-records": "Zapisy opieki offline",
+    "08-reports": "Podgląd raportów opieki"
+  },
+  "screenshotCaptions": {
+    "01-today": "Sprawdź, co jest zaplanowane na dziś dla osoby pod opieką.",
+    "02-plans": "Ustaw powtarzające się zadania i przejrzyj wykonane czynności.",
+    "03-handovers": "Podsumuj wizytę i zapisz, co pozostało do zrobienia.",
+    "04-medication": "Ustaw przypomnienia według zaleconego harmonogramu i samodzielnie potwierdź dawkę.",
+    "05-appointments": "Zapisuj godziny, miejsca i notatki dotyczące przygotowań.",
+    "06-assistant": "Wpisz polecenie lub wypowiedz je na zgodnym urządzeniu.",
+    "07-records": "Zapisy pozostają na urządzeniu, chyba że je wyeksportujesz.",
+    "08-reports": "Przejrzyj raport przed wybraniem miejsca zapisu."
+  }
+}

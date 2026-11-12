@@ -1,0 +1,39 @@
+{
+  "displayTitle": "Carehando – Planera familjens omsorg",
+  "shortDescription": "Planera vardagens omsorg och lämna en tydlig sammanfattning till nästa omsorgsgivare.",
+  "longDescription": "Planera vardagens omsorg och lämna en tydlig sammanfattning till nästa omsorgsgivare.\n\nSe vad som är planerat i dag för den du hjälper. Planera återkommande uppgifter och se vad som har gjorts. Sammanfatta besöket och skriv vad nästa person behöver följa upp. Lägg in påminnelser utifrån ordinerat schema och bekräfta dosen själv. Samla tider, platser och anteckningar inför besök.\n\nSkriv ett kommando eller använd rösten på en kompatibel enhet. Omsorgsuppgifterna stannar på enheten om du inte exporterar dem. Granska rapporten innan du väljer var den ska sparas.",
+  "keywords": [
+    "Planera familjens omsorg",
+    "Uppgifter och rutiner",
+    "Tydliga överlämningar",
+    "Läkemedelspåminnelser",
+    "Håll reda på bokade tider"
+  ],
+  "productFeatureBullets": [
+    "Uppgifter och rutiner",
+    "Tydliga överlämningar",
+    "Läkemedelspåminnelser",
+    "Håll reda på bokade tider"
+  ],
+  "releaseNotes": "Första versionen med dagsplanering, omsorgsanteckningar och överlämningar på en delad enhet.",
+  "screenshotHeadlines": {
+    "01-today": "Planera familjens omsorg",
+    "02-plans": "Uppgifter och rutiner",
+    "03-handovers": "Tydliga överlämningar",
+    "04-medication": "Läkemedelspåminnelser",
+    "05-appointments": "Håll reda på bokade tider",
+    "06-assistant": "Använd röst eller text",
+    "07-records": "Omsorgsjournal offline",
+    "08-reports": "Förhandsgranska rapporter"
+  },
+  "screenshotCaptions": {
+    "01-today": "Se vad som är planerat i dag för den du hjälper.",
+    "02-plans": "Planera återkommande uppgifter och se vad som har gjorts.",
+    "03-handovers": "Sammanfatta besöket och skriv vad nästa person behöver följa upp.",
+    "04-medication": "Lägg in påminnelser utifrån ordinerat schema och bekräfta dosen själv.",
+    "05-appointments": "Samla tider, platser och anteckningar inför besök.",
+    "06-assistant": "Skriv ett kommando eller använd rösten på en kompatibel enhet.",
+    "07-records": "Omsorgsuppgifterna stannar på enheten om du inte exporterar dem.",
+    "08-reports": "Granska rapporten innan du väljer var den ska sparas."
+  }
+}

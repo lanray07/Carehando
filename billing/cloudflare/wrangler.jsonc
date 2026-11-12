@@ -1,0 +1,38 @@
+{
+  "name": "carehando-receipt-verifier",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-11",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": false },
+  "vars": {
+    "AMAZON_RVS_SANDBOX": "0",
+    "AMAZON_RVS_ALLOW_BETA": "0"
+  },
+  "ratelimits": [
+    {
+      "name": "VERIFICATION_LIMIT",
+      "namespace_id": "45178001",
+      "simple": { "limit": 60, "period": 60 }
+    }
+  ],
+  "env": {
+    "lat": {
+      "name": "carehando-receipt-verifier-lat",
+      "workers_dev": true,
+      "preview_urls": false,
+      "observability": { "enabled": false },
+      "vars": {
+        "AMAZON_RVS_SANDBOX": "0",
+        "AMAZON_RVS_ALLOW_BETA": "1"
+      },
+      "ratelimits": [
+        {
+          "name": "VERIFICATION_LIMIT",
+          "namespace_id": "45178002",
+          "simple": { "limit": 60, "period": 60 }
+        }
+      ]
+    }
+  }
+}

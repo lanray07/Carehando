@@ -1,0 +1,16 @@
+listing_locale,draft_metadata,distribution_examples,console_check
+en-US,PASS,United States,NOT TESTED
+en-GB,PASS,United Kingdom,NOT TESTED
+en-AU,PASS,Australia and New Zealand,NOT TESTED
+en-IN,PASS,India,NOT TESTED
+fr-FR,PASS,France and French-speaking territories,NOT TESTED
+es-ES,PASS,Spain,NOT TESTED
+es-MX,PASS,Mexico,NOT TESTED
+de-DE,PASS,Germany and German-speaking territories,NOT TESTED
+it-IT,PASS,Italy,NOT TESTED
+ja-JP,PASS,Japan,NOT TESTED
+nl-NL,PASS,Netherlands,NOT TESTED
+pl-PL,PASS,Poland,NOT TESTED
+pt-BR,PASS,Brazil,NOT TESTED
+pt-PT,PASS,Portugal,NOT TESTED
+sv-SE,PASS,Sweden,NOT TESTED

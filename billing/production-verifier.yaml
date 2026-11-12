@@ -1,0 +1,124 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Carehando production Amazon Appstore receipt verifier
+
+Parameters:
+  VerifierCodeBucket:
+    Type: String
+    Description: Existing S3 artifact bucket in the deployment Region
+  VerifierCodeKey:
+    Type: String
+    Description: Versioned S3 key for a ZIP containing handler.py at its root
+  AmazonRvsSecretArn:
+    Type: String
+    Description: ARN of the existing Secrets Manager secret containing the raw Amazon RVS shared key
+    AllowedPattern: 'arn:[a-z0-9-]+:secretsmanager:[a-z0-9-]+:[0-9]{12}:secret:[A-Za-z0-9/_+=.@-]+'
+  VerifierConfigurationRevision:
+    Type: String
+    Default: '1'
+    Description: Increment after changing the Amazon RVS shared key
+    AllowedPattern: '[0-9]{1,8}'
+  AllowLiveAppTestingReceipts:
+    Type: String
+    Default: '0'
+    AllowedValues: ['0', '1']
+    Description: Set to 1 for a verifier used to validate Amazon Live App Testing beta products
+
+Resources:
+  VerifierLogs:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub /carehando/${AWS::StackName}/verifier
+      RetentionInDays: 14
+
+  VerifierRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: VerifierLogs
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - logs:CreateLogStream
+                  - logs:PutLogEvents
+                Resource: !Sub arn:${AWS::Partition}:logs:${AWS::Region}:${AWS::AccountId}:log-group:${VerifierLogs}:log-stream:*
+
+  VerifierFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Description: !Sub Carehando receipt verification, configuration revision ${VerifierConfigurationRevision}
+      Runtime: python3.13
+      Handler: handler.handler
+      Code:
+        S3Bucket: !Ref VerifierCodeBucket
+        S3Key: !Ref VerifierCodeKey
+      Role: !GetAtt VerifierRole.Arn
+      Timeout: 7
+      MemorySize: 128
+      LoggingConfig:
+        LogGroup: !Ref VerifierLogs
+        LogFormat: JSON
+        ApplicationLogLevel: ERROR
+        SystemLogLevel: WARN
+      Environment:
+        Variables:
+          AMAZON_RVS_SANDBOX: '0'
+          AMAZON_RVS_ALLOW_BETA: !Ref AllowLiveAppTestingReceipts
+          AMAZON_RVS_SECRET: !Sub '{{resolve:secretsmanager:${AmazonRvsSecretArn}:SecretString}}'
+
+  VerifierApi:
+    Type: AWS::ApiGatewayV2::Api
+    Properties:
+      Name: !Sub ${AWS::StackName}-receipt-verifier
+      ProtocolType: HTTP
+
+  VerifierIntegration:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      ApiId: !Ref VerifierApi
+      IntegrationType: AWS_PROXY
+      IntegrationMethod: POST
+      IntegrationUri: !Sub arn:${AWS::Partition}:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${VerifierFunction.Arn}/invocations
+      PayloadFormatVersion: '2.0'
+      TimeoutInMillis: 7500
+
+  VerifierRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref VerifierApi
+      RouteKey: POST /verify
+      Target: !Sub integrations/${VerifierIntegration}
+
+  VerifierPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref VerifierFunction
+      Action: lambda:InvokeFunction
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub arn:${AWS::Partition}:execute-api:${AWS::Region}:${AWS::AccountId}:${VerifierApi}/$default/POST/verify
+
+  VerifierStage:
+    Type: AWS::ApiGatewayV2::Stage
+    DependsOn:
+      - VerifierRoute
+      - VerifierPermission
+    Properties:
+      ApiId: !Ref VerifierApi
+      StageName: $default
+      AutoDeploy: true
+      DefaultRouteSettings:
+        ThrottlingRateLimit: 2
+        ThrottlingBurstLimit: 4
+
+Outputs:
+  ReceiptVerifierUrl:
+    Description: HTTPS verifier URL for the Carehando release build
+    Value: !Sub ${VerifierApi.ApiEndpoint}/verify

@@ -1,0 +1,39 @@
+{
+  "displayTitle": "Carehando – Family Care & Daily Planner",
+  "shortDescription": "Plan everyday family care and leave a clear handover for the next caregiver.",
+  "longDescription": "Plan everyday family care and leave a clear handover for the next caregiver.\n\nSee what is due today for the person you support. Plan recurring tasks and review completed activities. Record what happened during the visit and what needs follow-up. Set reminders from your existing medicine schedule and confirm a dose yourself. Keep appointment times, locations and preparation notes together.\n\nType a command or speak on a compatible device. Care records stay on your device unless you export them. Check the report before choosing where to save it.",
+  "keywords": [
+    "Family Care & Daily Planner",
+    "Keep care routines on track",
+    "Share a clear handover",
+    "Track medicine reminders",
+    "See upcoming appointments"
+  ],
+  "productFeatureBullets": [
+    "Keep care routines on track",
+    "Share a clear handover",
+    "Track medicine reminders",
+    "See upcoming appointments"
+  ],
+  "releaseNotes": "First release with daily care plans, notes and handovers on a shared device.",
+  "screenshotHeadlines": {
+    "01-today": "Plan daily family care",
+    "02-plans": "Keep care routines on track",
+    "03-handovers": "Share a clear handover",
+    "04-medication": "Track medicine reminders",
+    "05-appointments": "See upcoming appointments",
+    "06-assistant": "Use voice or type",
+    "07-records": "Keep care notes offline",
+    "08-reports": "Preview care reports"
+  },
+  "screenshotCaptions": {
+    "01-today": "See what is due today for the person you support.",
+    "02-plans": "Plan recurring tasks and review completed activities.",
+    "03-handovers": "Record what happened during the visit and what needs follow-up.",
+    "04-medication": "Set reminders from your existing medicine schedule and confirm a dose yourself.",
+    "05-appointments": "Keep appointment times, locations and preparation notes together.",
+    "06-assistant": "Type a command or speak on a compatible device.",
+    "07-records": "Care records stay on your device unless you export them.",
+    "08-reports": "Check the report before choosing where to save it."
+  }
+}
